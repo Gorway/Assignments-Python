@@ -3,7 +3,7 @@ def find_max_min(ls):
     max = ls[0]
     min = ls[0]
 
-    for num in ls:
+    for num in ls[1:]:
         if num > max:
             max = num
         elif num < min:
