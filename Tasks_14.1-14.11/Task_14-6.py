@@ -7,4 +7,4 @@ ls = ["Hello", "World", 1, 2, 3, 4, 5]
 
 length = length_of_list(ls)
 
-print(f"Length of list {ls} : {length} ")
+print(f"Length of list {ls} = {length} ")
