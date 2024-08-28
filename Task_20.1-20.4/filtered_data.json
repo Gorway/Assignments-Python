@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "category": "Books",
+        "title": "Python Programming"
+    },
+    {
+        "id": 3,
+        "category": "Books",
+        "title": "Learn JSON"
+    }
+]
