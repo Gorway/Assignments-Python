@@ -5,10 +5,26 @@ from message import Message, MessagingManager
 
 class User(MessagingManager):
   def __init__(self, name: str, contact_info: str):
-    self._name = name
-    self._contact_info = contact_info
+    self.set_name(name)
+    self.set_contact_info(contact_info)
     self._conversations: List['Conversation'] = []
-  
+
+  def set_name(self, name: str):
+    if not isinstance(self,str):
+      raise ValueError("Name must be string.")
+    self._name = name
+
+  def set_contact_info(self, contact_info: str):
+    if not isinstance(contact_info, str):
+      raise ValueError("Contact info must be string.")
+    self._contact_info = contact_info
+
+  def get_name(self):
+    return self._name
+
+  def get_contact_info(self):
+    return self._contact_info
+    
   def create_conversation(self, user: 'User'):
     new_onversation = Conversation(participants=[self, user])
     self._conversations.append(new_onversation)
