@@ -4,10 +4,10 @@ def merge(succession):
         for element in succession:
             head = element[0]
             if not any(head in s[1:] for s in succession):
-                break   
+                break
         else:
             raise TypeError("Unable to resolve inheritance order")
-        
+
         result.append(head)
         for element in succession:
             if element and element[0] == head:
