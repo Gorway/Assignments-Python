@@ -1,0 +1,39 @@
+[
+    {
+      "user_id": 4,
+      "name": "David Brown",
+      "age": 42,
+      "email": "david.brown@example.com",
+      "purchases": [
+        {
+          "item": "Monitor",
+          "amount": 300.00,
+          "date": "2024-10-08"
+        },
+        {
+          "item": "Desk Chair",
+          "amount": 150.00,
+          "date": "2024-10-09"
+        }
+      ]
+    },
+    {
+      "user_id": 5,
+      "name": "Eva Green",
+      "age": 27,
+      "email": "eva.green@example.com",
+      "purchases": [
+        {
+          "item": "Wireless Mouse",
+          "amount": 25.99,
+          "date": "2024-10-07"
+        },
+        {
+          "item": "Laptop Stand",
+          "amount": 45.00,
+          "date": "2024-10-14"
+        }
+      ]
+    }
+  ]
+  

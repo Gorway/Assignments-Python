@@ -1,0 +1,34 @@
+[
+    {
+      "user_id": 6,
+      "name": "Frank Miller",
+      "age": 31,
+      "email": "frank.miller@example.com",
+      "purchases": [
+        {
+          "item": "Bluetooth Speaker",
+          "amount": 79.99,
+          "date": "2024-10-02"
+        }
+      ]
+    },
+    {
+      "user_id": 7,
+      "name": "Grace Wilson",
+      "age": 38,
+      "email": "grace.wilson@example.com",
+      "purchases": [
+        {
+          "item": "Smartwatch",
+          "amount": 199.99,
+          "date": "2024-10-11"
+        },
+        {
+          "item": "Fitness Tracker",
+          "amount": 99.99,
+          "date": "2024-10-16"
+        }
+      ]
+    }
+  ]
+  
