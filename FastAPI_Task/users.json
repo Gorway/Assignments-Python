@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Aaron",
+        "email": "Swartz@gmail.com",
+        "password": "freeinternet"
+    },
+    {
+        "id": 2,
+        "name": "Stepan",
+        "email": "user@gmail.com",
+        "password": "213123"
+    },
+    {
+        "id": 3,
+        "name": "Varazdat",
+        "email": "user@gmail.com",
+        "password": "213123"
+    },
+    {
+        "id": 4,
+        "name": "Karapet",
+        "email": "user@gmail.com",
+        "password": "213123"
+    },
+    {
+        "id": 5,
+        "name": "Andre",
+        "email": "user@gmail.com",
+        "password": "213123"
+    },
+    {
+        "id": 6,
+        "name": "Armenchik",
+        "email": "user@gmail.com",
+        "password": "213123"
+    },
+    {
+        "id": 7,
+        "name": "Cherniy",
+        "email": "user@gmail.com",
+        "password": "213123"
+    },
+    {
+        "id": 8,
+        "name": "Asa",
+        "email": "izvini@gmail.com",
+        "password": "213123"
+    },
+    {
+        "id": 9,
+        "name": "Ann",
+        "email": "user@gmail.com",
+        "password": "213123"
+    },
+    {
+        "id": 10,
+        "name": "Greg",
+        "email": "user@gmail.com",
+        "password": "213123"
+    },
+    {
+        "id": 11,
+        "name": "string",
+        "email": "string@gmail.com",
+        "password": "stringsd"
+    },
+    {
+        "id": 12,
+        "name": "strings",
+        "email": "strings@gmail.com",
+        "password": "stringsd"
+    }
+]
