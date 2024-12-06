@@ -1,0 +1,187 @@
+[
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T11:35:06.196309"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T11:39:48.577126"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T11:40:42.482758"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T11:41:57.555523"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T11:42:43.629846"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T11:47:29.089722"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T11:50:23.306174"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T11:53:41.332279"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T11:53:49.491278"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T12:04:48.410647"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T12:04:51.273530"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T12:12:07.553771"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T12:12:16.950730"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T12:12:32.055344"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T12:12:34.367408"
+    },
+    {
+        "event": "login",
+        "username": "example",
+        "timestamp": "2024-12-04T12:13:12.002162"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T12:13:19.419895"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T12:15:30.800345"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T12:16:16.657780"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T12:16:27.017680"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T12:16:31.670708"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T12:19:48.681410"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T12:23:56.128093"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T12:26:01.179539"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T12:26:06.919089"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T12:26:58.602027"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T12:27:00.821224"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T12:56:08.991587"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T12:56:16.323177"
+    },
+    {
+        "event": "login",
+        "username": "gor",
+        "timestamp": "2024-12-04T13:24:54.837402"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T13:25:01.516609"
+    },
+    {
+        "event": "login",
+        "username": "Gor",
+        "timestamp": "2024-12-04T13:25:31.000272"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T13:25:36.536408"
+    },
+    {
+        "event": "login",
+        "username": "shahane",
+        "timestamp": "2024-12-04T17:49:50.512415"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T17:50:14.431351"
+    },
+    {
+        "event": "login",
+        "username": "shahane",
+        "timestamp": "2024-12-04T17:50:53.295257"
+    },
+    {
+        "event": "logout",
+        "username": "annotation=str required=False default=None alias='session_user' json_schema_extra={}",
+        "timestamp": "2024-12-04T17:51:16.104290"
+    }
+]
