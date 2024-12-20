@@ -4,14 +4,10 @@ from datetime import datetime, timedelta
 
 import pytz
 from jose import JWTError, jwt
-from dotenv import load_dotenv
+from settings.config import Config
 from passlib.context import CryptContext
 
-load_dotenv()
-
-SECRET_KEY = os.getenv("JWT_SECRET_KEY")
-ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 30
+config = Config()
 
 pwd_context = CryptContext(schemes=["bcrypt"])
 
@@ -25,18 +21,18 @@ def verify_password(plain_password: str, hashed_password: str) -> bool:
 
 
 def create_access_token(
-    data: dict, expires_minutes: int = ACCESS_TOKEN_EXPIRE_MINUTES
+    data: dict, expires_minutes: int = config.TOKEN_EXPIRY
 ) -> str:
     to_encode = data.copy()
     expire = datetime.now(pytz.utc) + timedelta(minutes=expires_minutes)
     to_encode.update({"exp": expire})
-    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
+    encoded_jwt = jwt.encode(to_encode, config.JWT_TOKEN, algorithm=config.ALGORITHM)
     return encoded_jwt
 
 
 def verify_token(token: str) -> Optional[dict]:
     try:
-        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        payload = jwt.decode(token, config.SECRET_KEY, algorithms=[config.ALGORITHM])
         if payload["exp"] >= datetime.now(pytz.utc).timestamp():
             return payload
     except JWTError:

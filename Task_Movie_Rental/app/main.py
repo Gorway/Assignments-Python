@@ -6,16 +6,18 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routers import auth_rout, movies_rout, rent_rout
+from settings.config import Config
 from middlewears import log_middlewear
-load_dotenv()
+from routers import auth_rout, movies_rout, rent_rout
+
+config = Config()
 
 
-HOST = os.getenv("HOST")
-PORT = int(os.getenv("PORT"))
-JWT_TOKEN = os.getenv("JWT_SECRET_KEY")
-ALGORITHM = os.getenv("ALGORITHM")
-TOKEN_EXPIRY = os.getenv("ACCESS_TOKEN_EXPIRED_MINUTES")
+# HOST = os.getenv("HOST")
+# PORT = int(os.getenv("PORT"))
+# JWT_TOKEN = os.getenv("JWT_SECRET_KEY")
+# ALGORITHM = os.getenv("ALGORITHM")
+# TOKEN_EXPIRY = os.getenv("ACCESS_TOKEN_EXPIRED_MINUTES")
 
 app = FastAPI()
 
@@ -35,4 +37,4 @@ app.include_router(rent_rout.rentals_router)
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", port=PORT, host=HOST, reload=True)
+    uvicorn.run("main:app", port=config.PORT, host=config.HOST, reload=True)

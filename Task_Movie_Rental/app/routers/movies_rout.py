@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.responses import JSONResponse
 
 from models.schemas import Movie
@@ -19,7 +19,7 @@ async def get_movies():
 @movies_router.post("/movies")
 async def add_movie(movie: Movie, token: str = Depends(verify_token)) -> str:
     if not token:
-        raise HTTPException(status_code=401, detail="Not authenticated")
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Not authenticated")
     current_user = token["sub"]
     fake_movie_db.append(movie)
     return JSONResponse(
