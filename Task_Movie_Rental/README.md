@@ -35,4 +35,4 @@ This is a FastAPI-based movie rental system with JWT authentication, movie manag
 ## Usage
 To start the FastAPI application:
 ```bash
-uvicorn main:app --reload
+python main.py 
